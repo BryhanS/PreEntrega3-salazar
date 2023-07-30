@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre Entrega 1 CoderHouse</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        height: 100vh;
+        background-color: #fffbe9;
+      }
+
+      main {
+        margin-top: 50px;
+      }
+
+      input {
+        width: 50px;
+      }
+      input[type="number"]::-webkit-inner-spin-button {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container-fluid d-flex flex-column">
+      <h1 class="text-center">Producto prueba de proyecto integrador!</h1>
+      <section class="body-cards m-auto p-auto">
+        <div class="card mt-5" style="width: 18rem">
+          <img src="./image/product-1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Pan Especial</h5>
+            <p class="card-text">Pan relleno de jamon y queso.</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="button" class="btn btn-success" btn btn-sm>
+                Add to Cart
+              </button>
+
+              <input
+                type="number"
+                id="cantidad"
+                name="num"
+                value="1"
+                min="1"
+                max="20"
+              />
+
+              <span>S/3.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
