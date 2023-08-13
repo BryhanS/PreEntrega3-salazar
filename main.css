@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  background-color: #fffbe9;
+}
+
+main {
+  margin-top: 50px;
+}
+
+input {
+  width: 50px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
